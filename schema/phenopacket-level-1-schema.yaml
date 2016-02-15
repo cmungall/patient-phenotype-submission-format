@@ -103,6 +103,7 @@ mapping:
                   # support for negation
               "negated": 
                 type: bool
+                default: false
               "onset": &onsetRef
                 type: map
                 mapping:
