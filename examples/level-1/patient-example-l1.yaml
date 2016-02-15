@@ -61,9 +61,9 @@ phenotype_profile:
       type: observation
     phenotype:
       type:
-        not:
           id: HP:0001608
           label: Abnormality of the voice
+      negated: true
     created: 2016-01-14
     contributors:
       - id: ORCID:nnnn-nnnn-nnnn
