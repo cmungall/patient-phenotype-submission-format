@@ -1,19 +1,29 @@
 {
+    "variants": [
+        {
+            "positions": [
+                {
+                    "type": "OPA1",
+                    "value": "homozygous c.1601T>G"
+                }
+            ],
+            "id": "_:v1"
+        }
+    ],
     "entities": [
         {
-            "id": "http://monarchinitiative.org/patient/1",
+            "biological_sex": "female",
             "type": "human",
-            "biological_sex": "female"
+            "id": "http://monarchinitiative.org/patient/1"
         },
         {
-            "id": "http://monarchinitiative.org/patient/2",
+            "biological_sex": "female",
             "type": "human",
-            "biological_sex": "female"
+            "id": "http://monarchinitiative.org/patient/2"
         }
     ],
     "phenotype_profile": [
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -27,22 +37,22 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "type": {
+                    "label": "truncal hypotonia",
+                    "id": "HP:0008936"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
                 },
-                "description": "Observed at 2 months of age",
-                "type": {
-                    "id": "HP:0008936",
-                    "label": "truncal hypotonia"
-                }
+                "description": "Observed at 2 months of age"
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -56,21 +66,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "type": {
+                    "label": "Hypertonia",
+                    "id": "HP:0001276"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
-                },
-                "type": {
-                    "id": "HP:0001276",
-                    "label": "Hypertonia"
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -84,21 +94,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "type": {
+                    "label": "Opisthotonus",
+                    "id": "HP:0002179"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
-                },
-                "type": {
-                    "id": "HP:0002179",
-                    "label": "Opisthotonus"
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -112,21 +122,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "type": {
+                    "label": "Weak cry",
+                    "id": "HP:0001612"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
-                },
-                "type": {
-                    "id": "HP:0001612",
-                    "label": "Weak cry"
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -140,21 +150,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "type": {
+                    "label": "Abnormality of the eye",
+                    "id": "HP:0000478"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
-                },
-                "type": {
-                    "id": "HP:0000478",
-                    "label": "Abnormality of the eye"
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -168,21 +178,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "type": {
+                    "label": "Abnormality of the eye",
+                    "id": "HP:0001639"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
-                },
-                "type": {
-                    "id": "HP:0001639",
-                    "label": "Abnormality of the eye"
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -196,23 +206,22 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "negated": true,
+                "type": {
+                    "label": "heart failure",
+                    "id": "HP:0001635"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "not": {
-                        "id": "HP:0001635",
-                        "label": "heart failure"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -226,21 +235,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "type": {
+                    "label": "Apnea",
+                    "id": "HP:0002104"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
-                },
-                "type": {
-                    "id": "HP:0002104",
-                    "label": "Apnea"
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -254,21 +263,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "type": {
+                    "label": "infantile encephalopathy",
+                    "id": "HP:0007105"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
-                },
-                "type": {
-                    "id": "HP:0007105",
-                    "label": "infantile encephalopathy"
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/1",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -282,21 +291,49 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/1",
             "phenotype": {
+                "type": {
+                    "label": "mitochondrial encephalopathy",
+                    "id": "HP:0006789"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
-                },
-                "type": {
-                    "id": "HP:0006789",
-                    "label": "mitochondrial encephalopathy"
                 }
             }
         },
         {
+            "evidence": {
+                "type": "TAS",
+                "source": {
+                    "id": "26561570",
+                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
+                }
+            },
+            "contributors": [
+                {
+                    "id": "ORCID:0000-0001-8793-9982"
+                }
+            ],
+            "created": "!!date 2016 2 9",
             "entity": "http://monarchinitiative.org/patient/2",
+            "phenotype": {
+                "type": {
+                    "label": "Hypertonia",
+                    "id": "HP:0001276"
+                },
+                "onset": {
+                    "type": {
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
+                    }
+                }
+            }
+        },
+        {
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -310,21 +347,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
-            "phenotype": {
-                "onset": {
-                    "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "id": "HP:0001276",
-                    "label": "Hypertonia"
-                }
-            }
-        },
-        {
             "entity": "http://monarchinitiative.org/patient/1",
+            "phenotype": {
+                "type": {
+                    "label": "Opisthotonus",
+                    "id": "HP:0002179"
+                },
+                "onset": {
+                    "type": {
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
+                    }
+                }
+            }
+        },
+        {
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -338,21 +375,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
-            "phenotype": {
-                "onset": {
-                    "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "id": "HP:0002179",
-                    "label": "Opisthotonus"
-                }
-            }
-        },
-        {
             "entity": "http://monarchinitiative.org/patient/2",
+            "phenotype": {
+                "type": {
+                    "label": "Opisthotonus",
+                    "id": "HP:0002179"
+                },
+                "onset": {
+                    "type": {
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
+                    }
+                }
+            }
+        },
+        {
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -366,222 +403,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
-            "phenotype": {
-                "onset": {
-                    "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "id": "HP:0002179",
-                    "label": "Opisthotonus"
-                }
-            }
-        },
-        {
             "entity": "http://monarchinitiative.org/patient/1",
-            "evidence": {
-                "type": "TAS",
-                "source": {
-                    "id": "26561570",
-                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
-                }
-            },
-            "contributors": [
-                {
-                    "id": "ORCID:0000-0001-8793-9982"
-                }
-            ],
-            "created": "!!date 2016 2 9",
             "phenotype": {
+                "type": {
+                    "label": "hypertrophic cardiomyopathy",
+                    "id": "HP:0001639"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "id": "HP:0001639",
-                    "label": "hypertrophic cardiomyopathy"
-                }
-            }
-        },
-        {
-            "entity": "http://monarchinitiative.org/patient/2",
-            "evidence": {
-                "type": "TAS",
-                "source": {
-                    "id": "26561570",
-                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
-                }
-            },
-            "contributors": [
-                {
-                    "id": "ORCID:0000-0001-8793-9982"
-                }
-            ],
-            "created": "!!date 2016 2 9",
-            "phenotype": {
-                "onset": {
-                    "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "id": "HP:0001639",
-                    "label": "hypertrophic cardiomyopathy"
-                }
-            }
-        },
-        {
-            "entity": "http://monarchinitiative.org/patient/2",
-            "evidence": {
-                "type": "TAS",
-                "source": {
-                    "id": "26561570",
-                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
-                }
-            },
-            "contributors": [
-                {
-                    "id": "ORCID:0000-0001-8793-9982"
-                }
-            ],
-            "created": "!!date 2016 2 9",
-            "phenotype": {
-                "onset": {
-                    "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "id": "HP:0012758",
-                    "label": "neurodevelopmental delay"
-                }
-            }
-        },
-        {
-            "entity": "http://monarchinitiative.org/patient/2",
-            "evidence": {
-                "type": "TAS",
-                "source": {
-                    "id": "26561570",
-                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
-                }
-            },
-            "contributors": [
-                {
-                    "id": "ORCID:0000-0001-8793-9982"
-                }
-            ],
-            "created": "!!date 2016 2 9",
-            "phenotype": {
-                "onset": {
-                    "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "description": "Observed at 2 months of age",
-                "type": {
-                    "id": "HP:0001252",
-                    "label": "hypotonia"
-                }
-            }
-        },
-        {
-            "entity": "http://monarchinitiative.org/patient/2",
-            "evidence": {
-                "type": "TAS",
-                "source": {
-                    "id": "26561570",
-                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
-                }
-            },
-            "contributors": [
-                {
-                    "id": "ORCID:0000-0001-8793-9982"
-                }
-            ],
-            "created": "!!date 2016 2 9",
-            "phenotype": {
-                "onset": {
-                    "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "description": "Observed at 2 months of age",
-                "type": {
-                    "id": "HP:0003202",
-                    "label": "skeletal muscle atrophy"
-                }
-            }
-        },
-        {
-            "entity": "http://monarchinitiative.org/patient/2",
-            "evidence": {
-                "type": "TAS",
-                "source": {
-                    "id": "26561570",
-                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
-                }
-            },
-            "contributors": [
-                {
-                    "id": "ORCID:0000-0001-8793-9982"
-                }
-            ],
-            "created": "!!date 2016 2 9",
-            "phenotype": {
-                "onset": {
-                    "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "description": "Observed at 2 months of age",
-                "type": {
-                    "id": "HP:0000407",
-                    "label": "Sensorineural hearing impairment"
-                }
-            }
-        },
-        {
-            "entity": "http://monarchinitiative.org/patient/2",
-            "evidence": {
-                "type": "TAS",
-                "source": {
-                    "id": "26561570",
-                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
-                }
-            },
-            "contributors": [
-                {
-                    "id": "ORCID:0000-0001-8793-9982"
-                }
-            ],
-            "created": "!!date 2016 2 9",
-            "phenotype": {
-                "onset": {
-                    "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "not": {
-                        "id": "HP:0000639",
-                        "label": "nystagmus"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/2",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -595,23 +431,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/2",
             "phenotype": {
+                "type": {
+                    "label": "hypertrophic cardiomyopathy",
+                    "id": "HP:0001639"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "not": {
-                        "id": "HP:0000508",
-                        "label": "ptosis"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/2",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -625,23 +459,21 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/2",
             "phenotype": {
+                "type": {
+                    "label": "neurodevelopmental delay",
+                    "id": "HP:0012758"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
-                    }
-                },
-                "type": {
-                    "not": {
-                        "id": "HP:0000546",
-                        "label": "retinal degneration"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
                 }
             }
         },
         {
-            "entity": "http://monarchinitiative.org/patient/2",
             "evidence": {
                 "type": "TAS",
                 "source": {
@@ -655,39 +487,203 @@
                 }
             ],
             "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/2",
             "phenotype": {
+                "type": {
+                    "label": "hypotonia",
+                    "id": "HP:0001252"
+                },
                 "onset": {
                     "type": {
-                        "id": "HP:0003593",
-                        "label": "Infantile onset"
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
                     }
                 },
+                "description": "Observed at 2 months of age"
+            }
+        },
+        {
+            "evidence": {
+                "type": "TAS",
+                "source": {
+                    "id": "26561570",
+                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
+                }
+            },
+            "contributors": [
+                {
+                    "id": "ORCID:0000-0001-8793-9982"
+                }
+            ],
+            "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/2",
+            "phenotype": {
                 "type": {
-                    "id": "HP:0002104",
-                    "label": "Apnea"
+                    "label": "skeletal muscle atrophy",
+                    "id": "HP:0003202"
+                },
+                "onset": {
+                    "type": {
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
+                    }
+                },
+                "description": "Observed at 2 months of age"
+            }
+        },
+        {
+            "evidence": {
+                "type": "TAS",
+                "source": {
+                    "id": "26561570",
+                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
+                }
+            },
+            "contributors": [
+                {
+                    "id": "ORCID:0000-0001-8793-9982"
+                }
+            ],
+            "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/2",
+            "phenotype": {
+                "type": {
+                    "label": "Sensorineural hearing impairment",
+                    "id": "HP:0000407"
+                },
+                "onset": {
+                    "type": {
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
+                    }
+                },
+                "description": "Observed at 2 months of age"
+            }
+        },
+        {
+            "evidence": {
+                "type": "TAS",
+                "source": {
+                    "id": "26561570",
+                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
+                }
+            },
+            "contributors": [
+                {
+                    "id": "ORCID:0000-0001-8793-9982"
+                }
+            ],
+            "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/2",
+            "phenotype": {
+                "negated": true,
+                "type": {
+                    "label": "nystagmus",
+                    "id": "HP:0000639"
+                },
+                "onset": {
+                    "type": {
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
+                    }
+                }
+            }
+        },
+        {
+            "evidence": {
+                "type": "TAS",
+                "source": {
+                    "id": "26561570",
+                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
+                }
+            },
+            "contributors": [
+                {
+                    "id": "ORCID:0000-0001-8793-9982"
+                }
+            ],
+            "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/2",
+            "phenotype": {
+                "negated": true,
+                "type": {
+                    "label": "ptosis",
+                    "id": "HP:0000508"
+                },
+                "onset": {
+                    "type": {
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
+                    }
+                }
+            }
+        },
+        {
+            "evidence": {
+                "type": "TAS",
+                "source": {
+                    "id": "26561570",
+                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
+                }
+            },
+            "contributors": [
+                {
+                    "id": "ORCID:0000-0001-8793-9982"
+                }
+            ],
+            "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/2",
+            "phenotype": {
+                "negated": true,
+                "type": {
+                    "label": "retinal degneration",
+                    "id": "HP:0000546"
+                },
+                "onset": {
+                    "type": {
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
+                    }
+                }
+            }
+        },
+        {
+            "evidence": {
+                "type": "TAS",
+                "source": {
+                    "id": "26561570",
+                    "title": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
+                }
+            },
+            "contributors": [
+                {
+                    "id": "ORCID:0000-0001-8793-9982"
+                }
+            ],
+            "created": "!!date 2016 2 9",
+            "entity": "http://monarchinitiative.org/patient/2",
+            "phenotype": {
+                "type": {
+                    "label": "Apnea",
+                    "id": "HP:0002104"
+                },
+                "onset": {
+                    "type": {
+                        "label": "Infantile onset",
+                        "id": "HP:0003593"
+                    }
                 }
             }
         }
     ],
+    "schema": "journal-example-level-1",
+    "comment": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation",
+    "@context": "http://phenopacket.github.io/context/context.jsonld",
     "family_profile": [
         {
+            "related_to": "http://monarchinitiative.org/patient/1",
             "entity": "http://monarchinitiative.org/patient/1",
-            "relation": "has_sister",
-            "related_to": "http://monarchinitiative.org/patient/1"
+            "relation": "has_sister"
         }
-    ],
-    "variants": [
-        {
-            "id": "_:v1",
-            "positions": [
-                {
-                    "value": "homozygous c.1601T>G",
-                    "type": "OPA1"
-                }
-            ]
-        }
-    ],
-    "@context": "http://phenopacket.github.io/context/context.jsonld",
-    "schema": "journal-example-level-1",
-    "comment": "Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation"
+    ]
 }

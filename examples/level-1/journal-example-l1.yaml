@@ -122,9 +122,9 @@ phenotype_profile:
         title: Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation
     phenotype:
       type:
-        not:
-          id: HP:0001635
-          label: heart failure
+        id: HP:0001635
+        label: heart failure
+      negated: true
       onset:
         type:
           id: HP:0003593
@@ -356,9 +356,9 @@ phenotype_profile:
         title: Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation
     phenotype:
       type:
-        not:
           id: HP:0000639
           label: nystagmus
+      negated: true
       onset:
         type:
           id: HP:0003593
@@ -376,9 +376,9 @@ phenotype_profile:
         title: Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation
     phenotype:
       type:
-        not:
           id: HP:0000508
           label: ptosis
+      negated: true
       onset:
         type:
           id: HP:0003593
@@ -395,9 +395,9 @@ phenotype_profile:
         title: Fatal infantile mitochondrial encephalomyopathy, hypertrophic cardiomyopathy and optic atrophy associated with a homozygous OPA1 mutation
     phenotype:
       type:
-        not:
           id: HP:0000546
           label: retinal degneration
+      negated: true
       onset:
         type:
           id: HP:0003593

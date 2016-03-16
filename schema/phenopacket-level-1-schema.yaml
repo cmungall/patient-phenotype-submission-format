@@ -101,12 +101,9 @@ mapping:
                   "label":
                     type: str
                   # support for negation
-                  "not":
-                    type: map
-                    mapping:
-                      "id": *idRef
-                      "label":
-                        type: str
+              "negated": 
+                type: bool
+                default: false
               "onset": &onsetRef
                 type: map
                 mapping:
