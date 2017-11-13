@@ -70,7 +70,7 @@
       oReq.open("GET", url);
       oReq.send();
     }
-    loadMarkdown("content/Overview.md", 'overview-detailed-markdown');
+    // loadMarkdown("content/Overview.md", 'overview-detailed-markdown');
     loadMarkdown("content/Vision.md", 'a-vision-detailed-markdown');
     loadMarkdown("content/Technology.md", 'a-technology-detailed-markdown');
     loadMarkdown("content/Community.md", 'a-community-detailed-markdown');
@@ -200,19 +200,23 @@
               </div>
             </div>
           </div>
+<!--
           <a href="#overview-detailed" class="btn btn-dark"
             onclick=$("#overview-detailed").toggleClass('hidden');>
             Details
           </a>
+ -->
+
         </div>
       </div>
-
+<!--
       <div class="row hidden" id="overview-detailed">
         <div class="col-xs-12">
           <div id="overview-detailed-markdown" class="markdown">
           </div>
         </div>
       </div>
+ -->
     </div>
   </section>
 
@@ -435,28 +439,60 @@
               data-interval="5000" id="myCarousel">
               <div class="carousel-inner">
                 <div class="item active">
-                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item"><a href="http://www.orpha.net"><img src="content/partners/logo-orphanet.png" class="img-responsive"></a></div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item">
+                    <a href="http://www.orpha.net"class="img-responsive" target="_blank">
+                      <img src="content/partners/logo-orphanet.png" class="img-responsive">
+                    </a>
+                  </div>
                 </div>
                 <div class="item">
-                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item"><a href="http://ga4gh.org/#/"><img src="content/partners/logo-globalalliance.jpg" class="img-responsive"></a></div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item">
+                    <a href="http://ga4gh.org/#/" target="_blank">
+                      <img src="content/partners/logo-globalalliance.jpg" class="img-responsive">
+                    </a>
+                  </div>
                 </div>
                 <div class="item">
-                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item"><a href="https://monarchinitiative.org"><img src="content/partners/logo-monarch.jpg" class="img-responsive"></a></div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item">
+                    <a href="https://monarchinitiative.org" target="_blank">
+                      <img src="content/partners/logo-monarch.jpg" class="img-responsive">
+                    </a>
+                  </div>
                 </div>
                 <div class="item">
-                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item"><a href="http://disease-ontology.org"><img src="content/partners/logo-do.png" class="img-responsive"></a></div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item">
+                    <a href="http://disease-ontology.org" target="_blank">
+                      <img src="content/partners/logo-do.png" class="img-responsive">
+                    </a>
+                  </div>
                 </div>
                 <div class="item">
-                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item"><a href="http://human-phenotype-ontology.github.io"><img src="content/partners/logo-hpo.jpg" class="img-responsive"></a></div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item">
+                    <a href="http://human-phenotype-ontology.github.io" target="_blank">
+                      <img src="content/partners/logo-hpo.jpg" class="img-responsive">
+                    </a>
+                  </div>
                 </div>
                 <div class="item">
-                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item"><a href="http://geneontology.org"><img src="content/partners/logo-go.png" class="img-responsive"></a></div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item">
+                    <a href="http://geneontology.org" target="_blank">
+                      <img src="content/partners/logo-go.png" class="img-responsive">
+                    </a>
+                  </div>
                 </div>
                 <div class="item">
-                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item"><a href="http://mygene.info"><img src="content/partners/logo-mygene.png" class="img-responsive"></a></div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item">
+                    <a href="http://mygene.info" target="_blank">
+                      <img src="content/partners/logo-mygene.png" class="img-responsive">
+                    </a>
+                  </div>
                 </div>
                 <div class="item">
-                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item"><a href="http://planteome.org"><img src="content/partners/logo-planteome.jpg" class="img-responsive"></a></div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 carousel-item">
+                    <a href="http://planteome.org" target="_blank">
+                      <img src="content/partners/logo-planteome.jpg" class="img-responsive">
+                    </a>
+                  </div>
                 </div>
               </div>
               <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
